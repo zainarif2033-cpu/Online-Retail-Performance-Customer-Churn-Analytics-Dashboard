@@ -4,7 +4,7 @@ This project simulates a real world analytics engagement for a fictional UK base
 ## MY Approach & Mindset
 Most beginner projects focus purely on making charts. I reversed that. I focused on solving a real business problem end-to-end.
 
-● **Business First Mindset:** Before writing queries or designing visuals, I defined the core business metrics (Revenue, Customer Retention,  Churn %, and Avg Customer Value) to ensure every chart directly supports executive decision making.
+● **Business First Mindset:** Before writing queries or designing visuals, I defined the core business metrics (Revenue, Customer Retention,  Churn%, and Avg Customer Value) to ensure every chart directly supports executive decision making.
 
 ● **Solving Real Data Quality Issues:** Instead of using pre cleaned datasets, I handled raw transaction logs containing real world flaws in MySQL including duplicate records, cancelled orders, missing Customer IDs, and invalid negative quantities.
 
@@ -46,14 +46,16 @@ The business wants to identify its most valuable customers and reduce churn amon
 ● **Interactive UI/UX Design in Power BI:** Implemented dynamic slicers, bookmark based visual toggles (Customer vs Revenue), custom KPI cards, and smooth next page navigation buttons.
 
 ## Dashboard Structure & Layout
-● **Page 1 — Home:** Features the project title, clean page navigation buttons (Next Page), and an interactive Glossary defining core business metrics (Total Customers, Total Revenue, Churned% and Avg Customer Value).
+● **Page 1 Home:**
 
-● **Page 2 — Business Overview:**
+● Features the project title, clean page navigation buttons (Next Page), and an interactive Glossary defining core business metrics (Total Customers, Total Revenue, Churned% and Avg Customer Value).
 
-  ● **Top Filter Panel (Slicers):** Dynamic slicers for filtering by Month, Quarter, Year, Country, and Churn status.
+● **Page 2 Business Overview:**
+
+● **Top Filter Panel (Slicers):** Dynamic slicers for filtering by Month, Quarter, Year, Country, and Churn status.
   
-  ● **Headline KPIs:** Total Customers, Total Revenue, Churn %, and Average Customer Value.
+● **Headline KPIs:** Total Customers, Total Revenue, Churn %, and Average Customer Value.
   
-  ● **Dynamic Bookmark Toggles:** Seamlessly switches between **Customer Dynamics** **Revenue Performance** and views on a single screen without cluttering.
+● **Dynamic Bookmark Toggles:** Seamlessly switches between Customer Dynamics Revenue Performance and views on a single screen without cluttering.
   
-  ● **Trend & Segment Views:** Multi attribute time series breakdowns across Month, Quarter, Year, and Country.
+● **Trend & Segment Views:** Multi attribute time series breakdowns across Month, Quarter, Year, and Country.
