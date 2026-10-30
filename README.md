@@ -1,1 +1,3 @@
 # Online Retail Performance & Customer Churn Analytics Dashboard
+## Project Overview
+This project simulates a real world analytics engagement for a fictional UK based gifting and home decor ecommerce brand, Online Retail / Gifting Store. The goal was to take raw, messy transactional data all the way through to a decision ready business intelligence dashboard, using the same workflow a data analyst would follow inside a real company: define the business problem first, clean and validate the data in SQL or build the analytical logics, and deliver the insight through an interactive Power BI report.
