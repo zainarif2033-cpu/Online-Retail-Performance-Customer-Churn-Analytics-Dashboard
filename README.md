@@ -22,8 +22,17 @@ The business wants to identify its most valuable customers and reduce churn amon
 
 ● What specific, concrete actions should the business take for each customer segment? 
 ## Key Findings
-● Seasonal Revenue Spikes: Sales data reveals strong seasonal spikes in Q4 (Holiday/Gifting season), which directly aligns with the gifting-focused nature of the e-commerce store.
-Overall churn sits at 50.86% (90 day inactivity threshold), indicating retention is a significant, not marginal, business risk.
-Average customer value varies sharply by segment, from a few hundred for Lost customers to several thousand for Champions.
-Revenue shows clear seasonal spikes in Q4, consistent with a gifting focused product category.
+● Seasonal Revenue Spikes: Sales data reveals strong seasonal spikes in Quarter4 (Holiday/Gifting season), which directly aligns with the gifting focused nature of the e-commerce store.
+
+● Overall churn sits at 33.39% (90 day inactivity threshold), indicating retention is a significant, not marginal, business risk.
+
+● Average customer value varies sharply by segment, from a few hundred for Lost customers to several thousand for Champions.
+
+● Revenue shows clear seasonal spikes in Quarter4, consistent with a gifting focused product category.
+## Tools and Tech Stack
+| Tools | Purpose in this project |
+|---|---|
+| My SQL Workbanch      |     Data import, cleaning, deduplication, and exploratory querying on the full 1M+ row dataset      |
+| Power BI Desktop      |     Three page interactive dashboard: executive summary and RFM deep dive
+|           |           |
 
