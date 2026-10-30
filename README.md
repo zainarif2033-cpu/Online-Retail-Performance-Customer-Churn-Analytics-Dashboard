@@ -4,11 +4,11 @@ This project simulates a real world analytics engagement for a fictional UK base
 ## MY Approach & Mindset
 Most beginner projects focus purely on making charts. I reversed that. I focused on solving a real business problem end-to-end.
 
-● Business First Mindset: Before writing queries or designing visuals, I defined the core business metrics (Revenue, Customer Retention,  Churn %, and Avg Customer Value) to ensure every chart directly supports executive decision making.
+● **Business First Mindset:** Before writing queries or designing visuals, I defined the core business metrics (Revenue, Customer Retention,  Churn %, and Avg Customer Value) to ensure every chart directly supports executive decision making.
 
-● Solving Real Data Quality Issues: Instead of using pre cleaned datasets, I handled raw transaction logs containing real world flaws in MySQL including duplicate records, cancelled orders, missing Customer IDs, and invalid negative quantities.
+● **Solving Real Data Quality Issues:** Instead of using pre cleaned datasets, I handled raw transaction logs containing real world flaws in MySQL including duplicate records, cancelled orders, missing Customer IDs, and invalid negative quantities.
 
-● Streamlined Executive Delivery: I transformed raw data into clean database views ("vw_page1_master") and built a bookmark driven Power BI dashboard, enabling seamless toggling between Customer and Revenue views without cluttering the screen.
+● **Streamlined Executive Delivery:** I transformed raw data into clean database views ("vw_page1_master") and built a bookmark driven Power BI dashboard, enabling seamless toggling between Customer and Revenue views without cluttering the screen.
 ## Business Problem
 The business wants to identify its most valuable customers and reduce churn among customers who are at risk of leaving. Leadership currently has no structured view of customer value, so retention efforts are reactive instead of targeted.
 ## Business Questions 
@@ -22,7 +22,7 @@ The business wants to identify its most valuable customers and reduce churn amon
 
 ● What specific, concrete actions should the business take for each customer segment? 
 ## Key Findings
-● Seasonal Revenue Spikes: Sales data reveals strong seasonal spikes in Quarter4 (Holiday/Gifting season), which directly aligns with the gifting focused nature of the e-commerce store.
+● **Seasonal Revenue Spikes:** Sales data reveals strong seasonal spikes in Quarter4 (Holiday/Gifting season), which directly aligns with the gifting focused nature of the e-commerce store.
 
 ● Overall churn sits at 33.39% (90 day inactivity threshold), indicating retention is a significant, not marginal, business risk.
 
@@ -37,17 +37,19 @@ The business wants to identify its most valuable customers and reduce churn amon
 | DAX Measures          |     Measures for customer counts, revenue totals, Churned% and average customer value
 
 ## Core Concepts Demonstrated
-● Business Logic & Churn Modeling: Applied a 90-day fixed inactivity threshold in SQL to dynamically flag churned vs. active customers.
+● **Business Logic & Churn Modeling:** Applied a 90-day fixed inactivity threshold in SQL to dynamically flag churned vs. active customers.
 
-● Advanced Data Cleaning in SQL: Resolved real world transactional data quality flaws, including duplicate records, cancelled orders ("C" codes), missing customer identifiers, and negative pricing/quantity errors.
+● **Advanced Data Cleaning in SQL:** Resolved real world transactional data quality flaws, including duplicate records, cancelled orders ("C" codes), missing customer identifiers, and negative pricing/quantity errors.
 
-● Database View Engineering ("vw_page1_master"): Built a optimized, single unified analytical view in MySQL to streamline report performance and eliminate redundant table joins in Power BI.
+● **Database View Engineering ("vw_page1_master"):** Built a optimized, single unified analytical view in MySQL to streamline report performance and eliminate redundant table joins in Power BI.
 
-● Interactive UI/UX Design in Power BI: Implemented dynamic slicers, bookmark based visual toggles (Customer vs Revenue), custom KPI cards, and smooth next page navigation buttons.
+● **Interactive UI/UX Design in Power BI:** Implemented dynamic slicers, bookmark based visual toggles (Customer vs Revenue), custom KPI cards, and smooth next page navigation buttons.
 
 ## Dashboard Structure & Layout
-● Page 1 — Home: Features the project title, clean page navigation buttons (Next Page), and an interactive Glossary defining core business metrics (Total Customers, Total Revenue, Churned% and Avg Customer Value).
-● Page 2 — Business Overview:
+● **Page 1 — Home:** Features the project title, clean page navigation buttons (Next Page), and an interactive Glossary defining core business metrics (Total Customers, Total Revenue, Churned% and Avg Customer Value).
+
+● **Page 2 — Business Overview:**
+
   ● **Top Filter Panel (Slicers):** Dynamic slicers for filtering by Month, Quarter, Year, Country, and Churn status.
   
   ● **Headline KPIs:** Total Customers, Total Revenue, Churn %, and Average Customer Value.
