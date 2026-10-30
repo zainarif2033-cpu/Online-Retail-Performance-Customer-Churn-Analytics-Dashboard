@@ -12,13 +12,9 @@ Most beginner projects focus purely on making charts. I reversed that. I focused
 ## Business Problem
 The business wants to identify its most valuable customers and reduce churn among customers who are at risk of leaving. Leadership currently has no structured view of customer value, so retention efforts are reactive instead of targeted.
 ## Business Questions 
-Who are our most valuable customers, and how much revenue do they actually contribute?  
-
-Which customers have gone quiet and are at risk of churning?  
-
-How does customer value and retention trend across time, by month, quarter, and year?  
-
-How does customer value and churn differ across geographic markets?  
-
-What specific, concrete actions should the business take for each customer segment?  
+● Who are our most valuable customers, and how much revenue do they actually contribute?
+● Which customers have gone quiet and are at risk of churning?
+● How does customer value and retention trend across time, by month, quarter, and year?
+● How does customer value and churn differ across geographic markets?
+● What specific, concrete actions should the business take for each customer segment? 
 
