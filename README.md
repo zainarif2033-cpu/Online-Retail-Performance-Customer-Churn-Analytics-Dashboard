@@ -49,6 +49,9 @@ The business wants to identify its most valuable customers and reduce churn amon
 ● Page 1 — Home: Features the project title, clean page navigation buttons (Next Page), and an interactive Glossary defining core business metrics (Total Customers, Total Revenue, Churned% and Avg Customer Value).
 ● Page 2 — Business Overview:
   ● **Top Filter Panel (Slicers):** Dynamic slicers for filtering by Month, Quarter, Year, Country, and Churn status.
+  
   ● **Headline KPIs:** Total Customers, Total Revenue, Churn %, and Average Customer Value.
+  
   ● **Dynamic Bookmark Toggles:** Seamlessly switches between **Customer Dynamics** **Revenue Performance** and views on a single screen without cluttering.
+  
   ● **Trend & Segment Views:** Multi attribute time series breakdowns across Month, Quarter, Year, and Country.
