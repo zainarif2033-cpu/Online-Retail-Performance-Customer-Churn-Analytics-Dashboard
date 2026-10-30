@@ -21,4 +21,9 @@ The business wants to identify its most valuable customers and reduce churn amon
 ● How does customer value and churn differ across geographic markets?
 
 ● What specific, concrete actions should the business take for each customer segment? 
+## Key Findings
+● Seasonal Revenue Spikes: Sales data reveals strong seasonal spikes in Q4 (Holiday/Gifting season), which directly aligns with the gifting-focused nature of the e-commerce store.
+Overall churn sits at 50.86% (90 day inactivity threshold), indicating retention is a significant, not marginal, business risk.
+Average customer value varies sharply by segment, from a few hundred for Lost customers to several thousand for Champions.
+Revenue shows clear seasonal spikes in Q4, consistent with a gifting focused product category.
 
