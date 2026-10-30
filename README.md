@@ -36,3 +36,19 @@ The business wants to identify its most valuable customers and reduce churn amon
 | Power BI Desktop      |     Two pages interactive dashboard: executive summary 
 | DAX Measures          |     Measures for customer counts, revenue totals, Churned% and average customer value
 
+## Core Concepts Demonstrated
+● Business Logic & Churn Modeling: Applied a 90-day fixed inactivity threshold in SQL to dynamically flag churned vs. active customers.
+
+● Advanced Data Cleaning in SQL: Resolved real world transactional data quality flaws, including duplicate records, cancelled orders ("C" codes), missing customer identifiers, and negative pricing/quantity errors.
+
+● Database View Engineering ("vw_page1_master"): Built a optimized, single unified analytical view in MySQL to streamline report performance and eliminate redundant table joins in Power BI.
+
+● Interactive UI/UX Design in Power BI: Implemented dynamic slicers, bookmark based visual toggles (Customer vs Revenue), custom KPI cards, and smooth next page navigation buttons.
+
+## Dashboard Structure & Layout
+● Page 1 — Home: Features the project title, clean page navigation buttons (Next Page), and an interactive Glossary defining core business metrics (Total Customers, Total Revenue, Churned% and Avg Customer Value).
+● Page 2 — Business Overview:
+  ● **Top Filter Panel (Slicers):** Dynamic slicers for filtering by Month, Quarter, Year, Country, and Churn status.
+  ● **Headline KPIs:** Total Customers, Total Revenue, Churn %, and Average Customer Value.
+  ● **Dynamic Bookmark Toggles:** Seamlessly switches between **Customer Dynamics** **Revenue Performance** and views on a single screen without cluttering.
+  ● **Trend & Segment Views:** Multi attribute time series breakdowns across Month, Quarter, Year, and Country.
