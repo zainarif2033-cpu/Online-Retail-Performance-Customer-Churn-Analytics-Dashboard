@@ -32,7 +32,7 @@ The business wants to identify its most valuable customers and reduce churn amon
 ## Tools and Tech Stack
 | Tools | Purpose in this project |
 |---|---|
-| My SQL Workbanch      |     Data import, cleaning, deduplication, and exploratory querying on the full 1M+ row dataset      |
-| Power BI Desktop      |     Three page interactive dashboard: executive summary and RFM deep dive
-|           |           |
+| MySQL Workbanch       |     Data import, cleaning, deduplication, and exploratory querying on the 500K+ rows dataset      |
+| Power BI Desktop      |     Two pages interactive dashboard: executive summary 
+| DAX Measures          |     Measures for customer counts, revenue totals, Churned% and average customer value
 
